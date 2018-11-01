@@ -1,0 +1,395 @@
+> Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:pluginDescriptors UP-TO-DATE
+> Task :buildSrc:processResources UP-TO-DATE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:inspectClassesForKotlinIC UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :buildSrc:assemble UP-TO-DATE
+> Task :buildSrc:compileTestKotlin NO-SOURCE
+> Task :buildSrc:pluginUnderTestMetadata UP-TO-DATE
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:validateTaskProperties UP-TO-DATE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:prepare-deps:android-dx:untarDxSources UP-TO-DATE
+> Task :buildSrc:prepare-deps:android-dx:prepareDxSourcesJar UP-TO-DATE
+> Task :buildSrc:prepare-deps:android-dx:unzipDxJar UP-TO-DATE
+> Task :buildSrc:prepare-deps:android-dx:prepareIvyXml UP-TO-DATE
+> Task :buildSrc:prepare-deps:android-dx:build UP-TO-DATE
+> Task :buildSrc:prepare-deps:intellij-sdk:copyIntellijSdkSources UP-TO-DATE
+> Task :buildSrc:prepare-deps:intellij-sdk:copyJpsBuildTest UP-TO-DATE
+> Task :buildSrc:prepare-deps:intellij-sdk:unzipIntellijCore UP-TO-DATE
+> Task :buildSrc:prepare-deps:intellij-sdk:unzipIntellijSdk UP-TO-DATE
+> Task :buildSrc:prepare-deps:intellij-sdk:unzipJpsStandalone UP-TO-DATE
+> Task :buildSrc:prepare-deps:intellij-sdk:prepareIvyXmls UP-TO-DATE
+> Task :buildSrc:prepare-deps:intellij-sdk:build UP-TO-DATE
+> Task :buildSrc:build UP-TO-DATE
+cache-redirector is enabled for pluginManagement
+
+> Configure project :
+Using kotlin bootstrap version 1.3.20-dev-564 from repo https://teamcity.jetbrains.com/guestAuth/app/rest/builds/buildType:(id:Kotlin_dev_Compiler),number:1.3.20-dev-564,branch:default:any/artifacts/content/maven/
+
+> Configure project :allopen-ide-plugin
+!!! /Users/jetbrains/tasks/plugins/allopen/allopen-ide/src
+
+> Configure project :eval4j
+!!! /Users/jetbrains/tasks/eval4j/src
+
+> Configure project :idea
+!!! /Users/jetbrains/tasks/idea/src
+
+> Configure project :j2k
+!!! /Users/jetbrains/tasks/j2k/src
+
+> Configure project :jps-plugin
+!!! /Users/jetbrains/tasks/jps-plugin/src
+
+> Configure project :kotlin-allopen-compiler-plugin
+!!! /Users/jetbrains/tasks/plugins/allopen/allopen-cli/src
+
+> Configure project :kotlin-android-extensions
+!!! /Users/jetbrains/tasks/prepare/android-extensions-compiler-gradle/src
+
+> Configure project :kotlin-android-extensions-runtime
+!!! /Users/jetbrains/tasks/plugins/android-extensions/android-extensions-runtime/src
+
+> Configure project :plugins:android-extensions-compiler
+!!! /Users/jetbrains/tasks/plugins/android-extensions/android-extensions-compiler/src
+
+> Configure project :kotlin-annotation-processing
+!!! /Users/jetbrains/tasks/plugins/kapt3/kapt3-compiler/src
+
+> Configure project :kotlin-annotation-processing-base
+!!! /Users/jetbrains/tasks/plugins/kapt3/kapt3-base/src
+
+> Configure project :kotlin-annotation-processing-runtime
+!!! /Users/jetbrains/tasks/plugins/kapt3/kapt3-runtime/src
+
+> Configure project :kotlin-annotations-android
+!!! /Users/jetbrains/tasks/libraries/tools/kotlin-annotations-android/src
+
+> Configure project :kotlin-ant
+!!! /Users/jetbrains/tasks/ant/src
+
+> Configure project :kotlin-build-common
+!!! /Users/jetbrains/tasks/build-common/src
+
+> Configure project :compiler:util
+!!! /Users/jetbrains/tasks/compiler/util/src
+
+> Configure project :compiler:container
+!!! /Users/jetbrains/tasks/compiler/container/src
+
+> Configure project :compiler:resolution
+!!! /Users/jetbrains/tasks/compiler/resolution/src
+
+> Configure project :compiler:serialization
+!!! /Users/jetbrains/tasks/compiler/serialization/src
+
+> Configure project :compiler:psi
+!!! /Users/jetbrains/tasks/compiler/psi/src
+
+> Configure project :compiler:frontend
+!!! /Users/jetbrains/tasks/compiler/frontend/src
+
+> Configure project :compiler:frontend.java
+!!! /Users/jetbrains/tasks/compiler/frontend.java/src
+
+> Configure project :compiler:frontend.script
+!!! /Users/jetbrains/tasks/compiler/frontend.script/src
+
+> Configure project :compiler:cli-common
+!!! /Users/jetbrains/tasks/compiler/cli/cli-common/src
+
+> Configure project :compiler:daemon-common
+!!! /Users/jetbrains/tasks/compiler/daemon/daemon-common/src
+
+> Configure project :compiler:daemon
+!!! /Users/jetbrains/tasks/compiler/daemon/src
+
+> Configure project :compiler:ir.tree
+!!! /Users/jetbrains/tasks/compiler/ir/ir.tree/src
+
+> Configure project :compiler:ir.psi2ir
+!!! /Users/jetbrains/tasks/compiler/ir/ir.psi2ir/src
+
+> Configure project :compiler:ir.backend.common
+!!! /Users/jetbrains/tasks/compiler/ir/backend.common/src
+
+> Configure project :compiler:backend.js
+!!! /Users/jetbrains/tasks/compiler/ir/backend.js/src
+
+> Configure project :compiler:backend-common
+!!! /Users/jetbrains/tasks/compiler/backend-common/src
+
+> Configure project :compiler:backend
+!!! /Users/jetbrains/tasks/compiler/backend/src
+
+> Configure project :compiler:plugin-api
+!!! /Users/jetbrains/tasks/compiler/plugin-api/src
+
+> Configure project :compiler:light-classes
+!!! /Users/jetbrains/tasks/compiler/light-classes/src
+
+> Configure project :compiler:cli
+!!! /Users/jetbrains/tasks/compiler/cli/src
+
+> Configure project :compiler:incremental-compilation-impl
+!!! /Users/jetbrains/tasks/compiler/incremental-compilation-impl/src
+
+> Configure project :js:js.ast
+!!! /Users/jetbrains/tasks/js/js.ast/src
+
+> Configure project :js:js.serializer
+!!! /Users/jetbrains/tasks/js/js.serializer/src
+
+> Configure project :js:js.parser
+!!! /Users/jetbrains/tasks/js/js.parser/src
+
+> Configure project :js:js.frontend
+!!! /Users/jetbrains/tasks/js/js.frontend/src
+
+> Configure project :js:js.translator
+!!! /Users/jetbrains/tasks/js/js.translator/src
+
+> Configure project :js:js.dce
+!!! /Users/jetbrains/tasks/js/js.dce/src
+
+> Configure project :core:metadata
+!!! /Users/jetbrains/tasks/core/metadata/src
+
+> Configure project :core:metadata.jvm
+!!! /Users/jetbrains/tasks/core/metadata.jvm/src
+
+> Configure project :core:descriptors
+!!! /Users/jetbrains/tasks/core/descriptors/src
+
+> Configure project :core:descriptors.jvm
+!!! /Users/jetbrains/tasks/core/descriptors.jvm/src
+
+> Configure project :core:deserialization
+!!! /Users/jetbrains/tasks/core/deserialization/src
+
+> Configure project :core:util.runtime
+!!! /Users/jetbrains/tasks/core/util.runtime/src
+
+> Configure project :kotlin-compiler-runner
+!!! /Users/jetbrains/tasks/compiler/compiler-runner/src
+
+> Configure project :kotlin-daemon-client
+!!! /Users/jetbrains/tasks/compiler/daemon/daemon-client/src
+
+> Configure project :kotlin-imports-dumper-compiler-plugin
+!!! /Users/jetbrains/tasks/plugins/imports-dumper/src
+
+> Configure project :kotlin-main-kts
+!!! /Users/jetbrains/tasks/libraries/tools/kotlin-main-kts/src
+
+> Configure project :kotlin-noarg-compiler-plugin
+!!! /Users/jetbrains/tasks/plugins/noarg/noarg-cli/src
+
+> Configure project :kotlin-runner
+!!! /Users/jetbrains/tasks/compiler/cli/cli-runner/src
+
+> Configure project :kotlin-sam-with-receiver-compiler-plugin
+!!! /Users/jetbrains/tasks/plugins/sam-with-receiver/sam-with-receiver-cli/src
+
+> Configure project :kotlin-scripting-common
+!!! /Users/jetbrains/tasks/libraries/scripting/common/src
+
+> Configure project :kotlin-scripting-compiler
+!!! /Users/jetbrains/tasks/plugins/scripting/scripting-cli/src
+
+> Configure project :kotlin-scripting-idea
+!!! /Users/jetbrains/tasks/plugins/scripting/scripting-idea/src
+
+> Configure project :kotlin-scripting-jvm
+!!! /Users/jetbrains/tasks/libraries/scripting/jvm/src
+
+> Configure project :kotlin-scripting-jvm-host
+!!! /Users/jetbrains/tasks/libraries/scripting/jvm-host/src
+
+> Configure project :kotlinx-serialization-compiler-plugin
+!!! /Users/jetbrains/tasks/plugins/kotlin-serialization/kotlin-serialization-compiler/src
+
+> Configure project :kotlin-source-sections-compiler-plugin
+!!! /Users/jetbrains/tasks/plugins/source-sections/source-sections-compiler/src
+
+> Configure project :kotlinx-metadata
+!!! /Users/jetbrains/tasks/libraries/kotlinx-metadata/src
+
+> Configure project :kotlinx-metadata-jvm
+!!! /Users/jetbrains/tasks/libraries/kotlinx-metadata/jvm/src
+
+> Configure project :kotlinx-serialization-ide-plugin
+!!! /Users/jetbrains/tasks/plugins/kotlin-serialization/kotlin-serialization-ide/src
+
+> Configure project :noarg-ide-plugin
+!!! /Users/jetbrains/tasks/plugins/noarg/noarg-ide/src
+
+> Configure project :sam-with-receiver-ide-plugin
+!!! /Users/jetbrains/tasks/plugins/sam-with-receiver/sam-with-receiver-ide/src
+
+> Configure project :test-instrumenter
+!!! /Users/jetbrains/tasks/test-instrumenter/src
+
+> Configure project :compiler:android-tests
+!!! /Users/jetbrains/tasks/compiler/android-tests/src
+
+> Configure project :compiler:ir.ir2cfg
+!!! /Users/jetbrains/tasks/compiler/ir/ir.ir2cfg/src
+
+> Configure project :core:descriptors.runtime
+!!! /Users/jetbrains/tasks/core/descriptors.runtime/src
+
+> Configure project :examples:scripting-jvm-maven-deps
+!!! /Users/jetbrains/tasks/libraries/examples/scripting/jvm-maven-deps/script/src
+
+> Configure project :examples:scripting-jvm-maven-deps-host
+!!! /Users/jetbrains/tasks/libraries/examples/scripting/jvm-maven-deps/host/src
+
+> Configure project :examples:scripting-jvm-simple-script
+!!! /Users/jetbrains/tasks/libraries/examples/scripting/jvm-simple-script/script/src
+
+> Configure project :examples:scripting-jvm-simple-script-host
+!!! /Users/jetbrains/tasks/libraries/examples/scripting/jvm-simple-script/host/src
+
+> Configure project :idea:formatter
+!!! /Users/jetbrains/tasks/idea/formatter/src
+
+> Configure project :idea:ide-common
+!!! /Users/jetbrains/tasks/idea/ide-common/src
+
+> Configure project :idea:idea-android
+!!! /Users/jetbrains/tasks/idea/idea-android/src
+
+> Configure project :idea:idea-android-output-parser
+!!! /Users/jetbrains/tasks/idea/idea-android/idea-android-output-parser/src
+
+> Configure project :idea:idea-core
+!!! /Users/jetbrains/tasks/idea/idea-core/src
+
+> Configure project :idea:idea-git
+!!! /Users/jetbrains/tasks/idea/idea-git/src
+
+> Configure project :idea:idea-gradle
+!!! /Users/jetbrains/tasks/idea/idea-gradle/src
+
+> Configure project :idea:idea-gradle-native
+!!! /Users/jetbrains/tasks/idea/idea-gradle-native/src
+
+> Configure project :idea:idea-jps-common
+!!! /Users/jetbrains/tasks/idea/idea-jps-common/src
+
+> Configure project :idea:idea-jvm
+!!! /Users/jetbrains/tasks/idea/idea-jvm/src
+
+> Configure project :idea:idea-maven
+!!! /Users/jetbrains/tasks/idea/idea-maven/src
+
+> Configure project :idea:idea-native
+!!! /Users/jetbrains/tasks/idea/idea-native/src
+
+> Configure project :idea:kotlin-gradle-tooling
+!!! /Users/jetbrains/tasks/idea/kotlin-gradle-tooling/src
+
+> Configure project :kotlin-native:kotlin-native-library-reader
+!!! /Users/jetbrains/tasks/konan/library-reader/src
+
+> Configure project :kotlin-native:kotlin-native-utils
+!!! /Users/jetbrains/tasks/konan/utils/src
+
+> Configure project :libraries:kotlin-prepush-hook
+!!! /Users/jetbrains/tasks/libraries/tools/kotlin-prepush-hook/src
+
+> Configure project :plugins:android-extensions-ide
+!!! /Users/jetbrains/tasks/plugins/android-extensions/android-extensions-idea/src
+
+> Configure project :plugins:android-extensions-jps
+!!! /Users/jetbrains/tasks/plugins/android-extensions/android-extensions-jps/src
+
+> Configure project :plugins:annotation-based-compiler-plugins-ide-support
+!!! /Users/jetbrains/tasks/plugins/annotation-based-compiler-plugins-ide-support/src
+
+> Configure project :plugins:kapt3-idea
+!!! /Users/jetbrains/tasks/plugins/kapt3/kapt3-idea/src
+
+> Configure project :plugins:uast-kotlin
+!!! /Users/jetbrains/tasks/plugins/uast-kotlin/src
+
+> Configure project :plugins:uast-kotlin-idea
+!!! /Users/jetbrains/tasks/plugins/uast-kotlin-idea/src
+
+> Configure project :tools:kotlinp
+!!! /Users/jetbrains/tasks/libraries/tools/kotlinp/src
+
+> Configure project :libraries:tools:mutability-annotations-compat
+!!! /Users/jetbrains/tasks/libraries/tools/mutability-annotations-compat/src
+
+> Configure project :
+UNSUPPORTED SOURCE PATH provider(task pluginDescriptors, class org.gradle.plugin.devel.tasks.GeneratePluginDescriptors) [class org.gradle.api.internal.tasks.DefaultTaskContainer$TaskCreatingProvider_Decorated extends class org.gradle.api.internal.tasks.DefaultTaskContainer$TaskCreatingProvider implements [org.gradle.api.internal.GeneratedSubclass, org.gradle.api.internal.DynamicObjectAware, groovy.lang.GroovyObject]], while visiting:
+ - SINGE PARENT COPY SPEC
+ - DEFAULT COPY SPEC
+ - COPY :kotlin-gradle-plugin:processResources
+UNSUPPORTED SOURCE PATH task ':kotlin-stdlib-js:compileJs' [class org.gradle.api.tasks.JavaExec_Decorated extends class org.gradle.api.tasks.JavaExec implements [org.gradle.api.internal.GeneratedSubclass, org.gradle.api.internal.IConventionAware, org.gradle.api.plugins.ExtensionAware, org.gradle.api.internal.HasConvention, org.gradle.api.internal.DynamicObjectAware, groovy.lang.GroovyObject]], while visiting:
+ - SINGE PARENT COPY SPEC
+ - DEFAULT COPY SPEC
+ - COPY :kotlin-stdlib-js:distJs
+UNSUPPORTED SOURCE PATH task ':prepare:build.version:writeBuildNumber' [class org.gradle.api.DefaultTask_Decorated extends class org.gradle.api.DefaultTask implements [org.gradle.api.internal.GeneratedSubclass, org.gradle.api.plugins.ExtensionAware, org.gradle.api.internal.HasConvention, org.gradle.api.internal.DynamicObjectAware, groovy.lang.GroovyObject]], while visiting:
+ - SINGE PARENT COPY SPEC
+ - DEFAULT COPY SPEC
+ - COPY :prepare:build.version:dist
+UNSUPPORTED SOURCE PATH task ':prepare:cidr-plugin:pluginXml' [class org.gradle.api.DefaultTask_Decorated extends class org.gradle.api.DefaultTask implements [org.gradle.api.internal.GeneratedSubclass, org.gradle.api.plugins.ExtensionAware, org.gradle.api.internal.HasConvention, org.gradle.api.internal.DynamicObjectAware, groovy.lang.GroovyObject]], while visiting:
+ - SINGE PARENT COPY SPEC
+ - DEFAULT COPY SPEC
+ - DEFAULT COPY SPEC
+ - COPY :prepare:cidr-plugin:jar
+UNRESOLVED /Users/jetbrains/tasks/libraries/reflect/api/build/libs/kotlin-reflect-api-1.3-SNAPSHOT-java9.jar
+UNRESOLVED /Users/jetbrains/tasks/libraries/stdlib/jvm/build/libs/kotlin-stdlib-coroutines.jar
+UNRESOLVED /Users/jetbrains/tasks/libraries/stdlib/jvm/build/libs/kotlin-stdlib-unsigned.jar
+UNRESOLVED /Users/jetbrains/tasks/libraries/stdlib/common/build/libs/kotlin-stdlib-common-coroutines.jar
+UNRESOLVED /Users/jetbrains/tasks/libraries/stdlib/js/build/classes/coroutines/kotlin
+UNRESOLVED /Users/jetbrains/tasks/libraries/stdlib/js/build/classes/kotlin.js
+UNRESOLVED /Users/jetbrains/tasks/libraries/stdlib/js/build/classes/kotlin.meta.js
+UNRESOLVED /Users/jetbrains/tasks/libraries/stdlib/js/build/classes/kotlin.js.map
+SKIPPED RECUESIVE ARTIFACT:
+ - /Users/jetbrains/tasks/dist
+ - /Users/jetbrains/tasks/dist/artifacts
+ - /Users/jetbrains/tasks/dist/artifacts/cidrPlugin
+ - /Users/jetbrains/tasks/dist/artifacts/cidrPlugin/Kotlin
+ - /Users/jetbrains/tasks/dist/artifacts/ideaPlugin/Kotlin
+ - /Users/jetbrains/tasks/dist/artifacts/cidrPlugin/Kotlin
+SKIPPED RECUESIVE ARTIFACT:
+ - /Users/jetbrains/tasks/dist
+ - /Users/jetbrains/tasks/dist/artifacts
+ - /Users/jetbrains/tasks/dist/artifacts/cidrPlugin
+ - /Users/jetbrains/tasks/dist/artifacts/cidrPlugin/Kotlin
+ - /Users/jetbrains/tasks/dist/artifacts/ideaPlugin/Kotlin
+ - /Users/jetbrains/tasks/dist/artifacts/cidrPlugin/Kotlin
+SKIPPED RECUESIVE ARTIFACT:
+ - /Users/jetbrains/tasks/dist
+ - /Users/jetbrains/tasks/dist/artifacts
+ - /Users/jetbrains/tasks/dist/artifacts/ideaPlugin
+ - /Users/jetbrains/tasks/dist/artifacts/ideaPlugin/Kotlin
+ - /Users/jetbrains/tasks/dist/artifacts/ideaPlugin/Kotlin
+SKIPPED RECUESIVE ARTIFACT:
+ - /Users/jetbrains/tasks/dist
+ - /Users/jetbrains/tasks/dist/artifacts
+ - /Users/jetbrains/tasks/dist/artifacts/kotlin-plugin-1.3-SNAPSHOT-CIDR.zip
+ - /Users/jetbrains/tasks/dist/artifacts/cidrPlugin/Kotlin
+ - /Users/jetbrains/tasks/dist/artifacts/ideaPlugin/Kotlin
+ - /Users/jetbrains/tasks/dist/artifacts/kotlin-plugin-1.3-SNAPSHOT-CIDR.zip
+SKIPPED RECUESIVE ARTIFACT:
+ - /Users/jetbrains/tasks/dist
+ - /Users/jetbrains/tasks/dist/artifacts
+ - /Users/jetbrains/tasks/dist/artifacts/kotlin-plugin-1.3-SNAPSHOT-CIDR.zip
+ - /Users/jetbrains/tasks/dist/artifacts/cidrPlugin/Kotlin
+ - /Users/jetbrains/tasks/dist/artifacts/ideaPlugin/Kotlin
+ - /Users/jetbrains/tasks/dist/artifacts/kotlin-plugin-1.3-SNAPSHOT-CIDR.zip
+
+CONFIGURE SUCCESSFUL in 1m 52s
