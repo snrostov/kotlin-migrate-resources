@@ -1,0 +1,21 @@
+Index: buildSrc/src/main/kotlin/sourceSets.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- buildSrc/src/main/kotlin/sourceSets.kt	(date 1541061325000)
++++ buildSrc/src/main/kotlin/sourceSets.kt	(date 1541062005000)
+@@ -31,7 +31,13 @@
+     get() = {
+         when (this@projectDefault.name) {
+             "main" -> {
++                this@projectDefault.resources.srcDir("resources").asPath
++
+                 java.srcDirs("src")
++                java.srcDirs.forEach {
++                    println("!!! ${it}")
++                }
++
+                 val processResources = tasks.getByName(processResourcesTaskName) as ProcessResources
+                 processResources.from("resources") { include("**") }
+                 processResources.from("src") { include("META-INF/**", "**/*.properties") }

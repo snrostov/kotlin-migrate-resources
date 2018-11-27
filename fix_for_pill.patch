@@ -1,0 +1,16 @@
+Index: compiler/cli/src/org/jetbrains/kotlin/cli/jvm/compiler/KotlinCoreEnvironment.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- compiler/cli/src/org/jetbrains/kotlin/cli/jvm/compiler/KotlinCoreEnvironment.kt	(date 1541067228000)
++++ compiler/cli/src/org/jetbrains/kotlin/cli/jvm/compiler/KotlinCoreEnvironment.kt	(date 1541068311000)
+@@ -623,7 +623,7 @@
+                 configuration.get(CLIConfigurationKeys.INTELLIJ_PLUGIN_ROOT)?.let(::File)
+                     ?: PathUtil.getResourcePathForClass(this::class.java).takeIf { it.hasConfigFile(configFilePath) }
+                     // hack for load extensions when compiler run directly from project directory (e.g. in tests)
+-                    ?: File("idea/src").takeIf { it.hasConfigFile(configFilePath) }
++                    ?: File("idea/resources").takeIf { it.hasConfigFile(configFilePath) }
+                     ?: throw IllegalStateException(
+                         "Unable to find extension point configuration $configFilePath " +
+                                 "(cp:\n  ${(Thread.currentThread().contextClassLoader as? UrlClassLoader)?.urls?.joinToString("\n  ") { it.file }})"

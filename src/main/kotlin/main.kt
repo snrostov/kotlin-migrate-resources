@@ -1,7 +1,5 @@
 import org.zeroturnaround.exec.ProcessExecutor
 import java.io.File
-import java.nio.file.Files
-
 
 fun main(args: Array<String>) {
     File("data.txt").forEachLine {
@@ -32,7 +30,7 @@ fun main(args: Array<String>) {
     }
 }
 
-val root = File("/Users/jetbrains/tasks")
+val root = File("/Users/jetbrains/kotlin")
 
 private fun move(src: File, srcRoot: File, resRoot: File) {
     println(src)
